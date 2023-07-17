@@ -6,15 +6,17 @@
   font-family: "Poppins", sans-serif;
 }
 .contact {
-  /* position: relative; */
+  position: relative;
   min-height: 100vh;
-  padding: 200px 100px;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  /* background: url('/img/logo.jpeg'); */
+  background: url(/img/home.jpeg);
   background-size: cover;
 }
 .contact .content {
-  margin: auto;
   max-width: 800px;
   text-align: center;
 }
@@ -65,19 +67,4 @@
 .container .contactInfo .box .text h3 {
   font-weight: 500;
   color: #b9b1b4;
-}
-
-.inputBox {
-  color: white;
-}
-
-.inputBox input, .inputBox textarea {
-  display: block;
-  width: 100%;
-}
-
-.inputBox button {
-  padding: 5px;
-  margin-top: 10px;
-  cursor: pointer;
 }
