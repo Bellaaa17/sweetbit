@@ -13,7 +13,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  
   overflow-x: hidden;
 }
 
@@ -25,7 +25,7 @@ html {
 
 .container .title {
   margin-top: 10%;
-  font-size: 3.5rem;
+  font-size: 2rem;
   color: #fff;
   margin-bottom: 3rem;
   text-transform: uppercase;
@@ -34,11 +34,12 @@ html {
 
 .container .products-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 2rem;
 }
 
 .container .products-container .product {
+  font-size: 12px !important;
   text-align: center;
   padding: 3rem 2rem;
   background: #fff;
@@ -54,16 +55,17 @@ html {
 }
 
 .container .products-container .product img {
-  height: 25rem;
+  width: 100%;
 }
 
 .container .products-container .product:hover img {
+  z-index: -999;
   transform: scale(0.9);
 }
 
 .container .products-container .product h3 {
   padding: 0.5rem 0;
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: #444;
 }
 
@@ -72,7 +74,7 @@ html {
 }
 
 .container .products-container .product .price {
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: #444;
 }
 
